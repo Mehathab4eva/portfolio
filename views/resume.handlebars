@@ -1,0 +1,80 @@
+
+
+
+<div class="resumeDiv">
+	<img id="upArrow" src="./images/upArrow.png">
+	<div class="aboutMe">
+		
+		<div>
+			<p class="summary">{{data.summary}}</p>
+		</div>
+		<div class="socialDiv">
+			{{#each data.social}}
+			<a href={{this.link}} target="_blank"><img class="socialPic" src={{this.imgURL}}></a>
+			{{/each}}
+		</div>
+		
+
+	</div>
+
+	<img id="downArrow" src="./images/downArrow.png">
+
+	<div class="skills">
+			<h2>Technologies</h2>
+		<ul>
+			{{#each data.technologies}}
+			<li>{{this}}</li>
+			{{/each}}
+
+		</ul>
+			
+	</div>
+
+	<div class="career">
+			<h2>Career</h2>
+		<div class="education">
+			<div class="eduContainer">
+					{{#each data.education}}
+
+					<div class="edu">
+						<img src={{this.imgURL}} alt="Institution Logo" class="institueLogo">
+						<div>
+							<h4>{{this.course}}</h4>
+						<h4>{{this.institution}}</h4>
+						<p>{{this.duration}}</p>
+						</div>
+
+					</div>
+					{{/each}}
+				
+			</div>
+			
+		</div>
+		<div class="work">
+			<div class="workContainer">
+					{{#each data.work}}
+
+					<div class="companyCard">
+						<img src={{this.imgURL}} alt="workLogo" class="companyLogo">
+						<div>
+						<h4>{{this.position}}</h4>
+						<h4>{{this.workplace}}</h4>
+						<p>{{this.workLocation}}</p>
+						<p>{{this.duration}}</p>
+					
+						</div>
+					</div>
+					{{/each}}
+				
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+
+<script type="text/javascript" src="./scripts/resume.js"></script>
