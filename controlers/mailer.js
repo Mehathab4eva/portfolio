@@ -4,15 +4,15 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    // type: 'oauth2',
-    user: 'YOUR_EMAIL', //you@service.com
-    pass: 'YOUR_PASSWORD'
+    // 
+    user: 'mehathab.portfolio@gmail.com', //you@service.com
+    pass: 'Tigerclaw'
   }
 });
 
 const mailOptions = {
-  from: `YOUR_EMAIL`,
-  to: `SENDER_EMAIL`, 
+  from: `mehathab.portfolio@gmail.com`,
+  to: `mehathab4eva@gmail.com`, 
   subject: `Rec_portfolio: `,
   text: 'test failed' // default text
 };

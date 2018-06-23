@@ -5,7 +5,7 @@ const DATA 		= require('./Data/resumeData.js');
 const mailer 	= require('./controlers/mailer.js');
 				
 
-const PORT 	= 'PORT_NUMBER';
+const PORT 	= 8080;
 const app 	= express();
 
 
