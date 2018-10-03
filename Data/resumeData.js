@@ -1,4 +1,4 @@
-
+﻿
 const projects = [ 
 								{
 												name: "iCaluculate",
@@ -8,7 +8,7 @@ const projects = [
 
 								{
 								 				name: "designSite",
-								 				link: "https://razprojects.github.io/designSite/",
+								 				link: "https://stormy-spire-60820.herokuapp.com/",
 								 				imgURL: "./images/designSite.png"
 								 },
 
@@ -71,16 +71,16 @@ const education = [
 const work = [
 				{
 					workplace: 'Care Medical LLC',
-					position: 'Blockchain Mining Manager',
-					duration: 'Mar 2017 - Current',
+					position: 'Full Stack Web Developer MERN',
+					duration: 'Sept 2015 - Jul 2018',
 					workLocation: 'Price, UT',
 					imgURL: "./images/cmLogo.png"
 				},
 				{
-					workplace: 'Data Care LLC',
-					position: 'Assistant Manager',
-					duration: 'Sept 2015 - Mar 2017',
-					workLocation: 'Salt Lake City, UT',
+					workplace: 'Data Care',
+					position: 'JR Web Developer',
+					duration: 'Apr 2013 - Aug 2015',
+					workLocation: 'AP, India',
 					imgURL: "./images/dcLogo.png"
 				}
 				]
@@ -88,7 +88,7 @@ const work = [
  
 const data = {
 	summary	: `"Full Stack Web Developer.
-				A year of experience developing custom, interactive,
+				5 years of experience developing custom, interactive,
 				and responsive web applications while completing the U of U Coding Bootcamp. Currently seeking a role as a
 				Web Developer in a collaborative, cohesive, innovative environment where I can apply and extend my
 				technical and web application development skills."`,
